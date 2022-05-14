@@ -5,12 +5,11 @@ void copy(char* dst, char* src){
   // Code for copying a string goes here
   while (!(*src == '\0')) { 
     *dst = *src;
-    printf("%c", *dst);
     src++;
     dst++;
     
   }
-
+  *dst = '\0';
 }
  
 int main(){
